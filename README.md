@@ -19,7 +19,8 @@ This repository contains structured documentation and configuration for speciali
 ├── README.md           # Project documentation
 └── agents/             # Agent definition directory
     ├── PR2-D2.md       # Technical Documentation & PR specialist
-    └── Sebas.md        # Backend Architect & .NET expert
+    ├── Sebas.md        # Backend Architect & .NET expert
+    └── Qarlos.md       # QA specialist
 ```
 
 ## Agents
@@ -32,6 +33,11 @@ This repository contains structured documentation and configuration for speciali
 ### [Sebas](agents/Sebas.md)
 - **Role**: Backend Architect ("The .NET & Backend Jedi Master")
 - **Specialization**: Designing scalable APIs, SQL optimization, Azure infrastructure, and Specs Driven Development (SDD).
+- **Tools**: `Write`, `Read`, `Bash`, `Grep`, `AskUserQuestion`, `Glob`, `WebSearch`.
+- 
+### [Qarlos](agents/Qarlos.md)
+- **Role**: Lead .NET QA Engineer ( The Bug-Hunter)
+- **Specialization**: An expert testing agent dedicated to ensuring code reliability through high-coverage unit testing, Testcontainers, and Reqnroll BDD scenarios.
 - **Tools**: `Write`, `Read`, `Bash`, `Grep`, `AskUserQuestion`, `Glob`, `WebSearch`.
 
 ## Setup & Usage
